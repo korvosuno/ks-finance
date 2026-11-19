@@ -1,0 +1,19 @@
+{
+  "name": "@ks-finance/application",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@ks-finance/domain": "workspace:*",
+    "zod": "^4.1.0"
+  },
+  "exports": {
+    "./finance": "./finance.ts",
+    "./finance-store": "./finance-store.ts",
+    "./bookkeeping": "./bookkeeping.ts",
+    "./bookkeeping-store": "./bookkeeping-store.ts",
+    "./device": "./device.ts",
+    "./device-store": "./device-store.ts",
+    "./tags": "./tags.ts"
+  }
+}

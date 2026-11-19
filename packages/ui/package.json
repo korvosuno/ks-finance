@@ -1,0 +1,13 @@
+{
+  "name": "@ks-finance/ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react-hook-form": "^7.65.0",
+    "zustand": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^19.2.0"
+  }
+}
