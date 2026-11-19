@@ -1,0 +1,28 @@
+{
+  "name": "ks-finance",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.9",
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @ks-finance/web run dev",
+    "build": "pnpm --filter @ks-finance/web run build",
+    "preview": "pnpm --filter @ks-finance/web run preview",
+    "typecheck": "pnpm --filter @ks-finance/web run typecheck",
+    "lint": "oxlint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "fake-indexeddb": "^6.2.0",
+    "oxlint": "^1.93.0",
+    "prettier": "^3.10.0",
+    "vitest": "^4.0.0"
+  }
+}
